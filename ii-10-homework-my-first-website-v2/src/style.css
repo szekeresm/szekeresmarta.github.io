@@ -1,0 +1,126 @@
+.header-content {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: #233;
+  color: white;
+}
+#chapter {
+  margin: 15px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 700px;
+  display: flex;
+  position: flex-start;
+}
+
+.greating-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.text-block {
+  margin-top: -129px;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 0.99;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 0px;
+  color: #111;
+}
+
+.AS {
+  font-size: 50px;
+  margin: 0px;
+  margin-left: 69px;
+  padding: 0px;
+  color: #111;
+}
+
+blockquote {
+  font-size: 1.7em;
+  width: 70%;
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  color: white;
+  padding: 1em 30px 1em 55px;
+  line-height: 0.99;
+  position: relative;
+  background: #233;
+}
+blockquote::before {
+  font-family: "Noto Sans TC", sans-serif;
+  content: "\201C";
+  color: white;
+  font-size: 3.8em;
+  position: absolute;
+  left: -65px;
+  top: -5px;
+}
+
+#quote1 {
+  margin-top: 75px;
+}
+#quote2 {
+  margin-top: 280px;
+}
+#quote3 {
+  margin-top: 282px;
+}
+
+#rectangle {
+  width: 300px;
+  height: 50px;
+  margin-left: -54px;
+  margin-top: 74px;
+  margin-right: -20px;
+  eight: 100px;
+  color: #233;
+}
+
+main {
+  margin: 50px;
+  width: 350px;
+  font-family: "Fira Sans", sans-serif;
+  color: #444;
+  font-size: 14px;
+}
+#highlight {
+  font-family: "Anton", sans-serif;
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: square;
+}
+h2 {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+h4 {
+  margin-botom: 0px;
+  font-style: weight;
+}
+
+h5 {
+  margin-top: 0px;
+  font-style: italic;
+}
+.close {
+  line-height: 0.1;
+}
+
+#first {
+  margin-top: 126px;
+}
+.next {
+  margin-top: 70px;
+}
